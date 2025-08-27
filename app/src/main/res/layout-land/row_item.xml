@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:id="@+id/userRowID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/usernameView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/levelView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Level"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/scoreView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Score"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/durationView"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="MM:SS"
+            android:textAlignment="center"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+</FrameLayout>

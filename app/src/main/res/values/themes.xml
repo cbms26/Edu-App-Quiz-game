@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NgawangEduApp1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Set the action bar background color to green -->
+        <item name="colorPrimary">@color/green</item>
+        !-- Spinner style -->
+        <item name="android:spinnerItemStyle">@style/headline</item>
+        <item name="spinnerDropDownItemStyle">@style/headline</item>
+    </style>
+
+
+    <style name="headline" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.NgawangEduApp1" parent="Base.Theme.NgawangEduApp1">
+        <!-- Set the action bar text color to black -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <!-- Customize your action bar title text style -->
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+
+    <style name="MyActionBarTitleText">
+        <!-- Set the action bar title text size and color -->
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
